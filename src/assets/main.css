@@ -1,0 +1,106 @@
+body {
+  background: rgb(37,37,37);
+  background: linear-gradient(90deg, rgba(37,37,37,1) 15%, rgba(144,144,144,1) 100%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 400px;
+  margin: 30px auto;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s ease-in-out;
+  text-transform: uppercase;
+}
+
+.adicionar {
+  background-color: #007bff;
+  color: white;
+}
+
+.adicionar:hover {
+  background-color: #0056b3;
+}
+
+.remover {
+  background-color: #dc3545;
+  color: white;
+}
+
+.remover:hover {
+  background-color: #c82333;
+}
+
+.finalizado {
+  background-color: #28a745;
+  color: white;
+}
+
+.finalizado:hover {
+  background-color: #218838;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.tarefa {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease;
+}
+
+.tarefa:hover {
+  background: #e9ecef;
+}
+
+.botoes {
+  display: flex;
+  gap: 10px;
+}
+
+.concluida {
+  text-decoration: line-through;
+  color: green;
+  font-weight: bold;
+}
